@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 var IntentMap = require('./Intents')
 var States = require('./states')
-var Ayva = require('../ayva')
+var Ayva = require('ayva')
 
 var StateDataStore = require('./DataStores/StateDataStore')
 
