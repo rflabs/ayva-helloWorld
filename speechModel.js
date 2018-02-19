@@ -17,7 +17,7 @@ var Name = {
 
 var speechModel = {
     intents: [
-        // Welcome,
+        Welcome,
         Name
     ],
 }
