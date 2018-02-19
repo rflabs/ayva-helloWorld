@@ -9,14 +9,15 @@ var Welcome = {
 var Name = {
     name: 'name',
     utterances: [
-        "My name is kevin"
+        "My name is kevin",
+        "test 2"
     ],
     events:[]
 }
 
 var speechModel = {
     intents: [
-        Welcome,
+        // Welcome,
         Name
     ],
 }
