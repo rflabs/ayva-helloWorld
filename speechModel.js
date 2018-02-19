@@ -9,7 +9,7 @@ var Welcome = {
 var Name = {
     name: 'name',
     utterances: [
-        "My name is kevin",
+        "My name is {'name':'Kevin'} and I love Ayva",
         "test 2"
     ],
     events:[]
