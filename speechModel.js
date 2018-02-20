@@ -19,7 +19,7 @@ var Name = {
         "name" : {
             dataType: "@sys.given-name",
             isList: false,
-            required: false
+            required: false,
         }
     },
     events:[],
