@@ -3,7 +3,9 @@ var Welcome = {
     utterances: [],
     events:[
         "Welcome"
-    ]
+    ],
+    slots: {},
+    isList: false
 }
 
 var Name = {
@@ -13,15 +15,22 @@ var Name = {
         "{'name':'Gavin'}",
         "I am {'name':'Sophie'}"
     ],
-    slots: {'given-name':"@sys.given-name"},
-    events:[]
+    slots: {
+        "name" : {
+            dataType: "@sys.given-name",
+            isList: false,
+            required: false
+        }
+    },
+    events:[],
+    isList: false
 }
 
 var speechModel = {
     intents: [
         Welcome,
         Name
-    ],
+    ],  
 }
 
 module.exports = speechModel;
