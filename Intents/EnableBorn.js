@@ -1,6 +1,6 @@
 
 // Ayva State manager
-var Ayva = require('../../ayva')
+var Ayva = require('ayva')
 var StateManager = Ayva.StateManager
 
 var Age = function(Context){
