@@ -9,7 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 var IntentMap = require('./Intents')
 var States = require('./states')
-var Ayva = require('ayva')
+var Errors = require('./Errors')
+var Ayva = require('../ayva')
 
 var StateDataStore = require('./DataStores/StateDataStore')
 
@@ -17,6 +18,7 @@ var StateDataStore = require('./DataStores/StateDataStore')
 Ayva.Config.RegisterIntents(IntentMap);
 Ayva.Config.RegisterStates(States);
 Ayva.Config.StateProvider(StateDataStore);
+Ayva.Config.RegisterErrors(Errors)
 
 app.post('/gAssistant', function(req, res) {
     Ayva.ExecuteRequest.FromGoogle(req.body, res);    
