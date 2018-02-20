@@ -6,7 +6,6 @@ var Welcome = {
     events:[
         "Welcome"
     ],
-    slots: {},
     isList: false
 }
 
