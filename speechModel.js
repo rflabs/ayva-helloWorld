@@ -9,9 +9,11 @@ var Welcome = {
 var Name = {
     name: 'name',
     utterances: [
-        "My name is {'name':'Kevin'} and I love Ayva",
-        "test 2"
+        "My name is {'name':'Kevin'}",
+        "{'name':'Gavin'}",
+        "I am {'name':'Sophie'}"
     ],
+    slots: {'given-name':"@sys.given-name"},
     events:[]
 }
 
