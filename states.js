@@ -5,15 +5,15 @@ var States = {
         middleware: ['logInput']
     },
 
-    'newUser': {
-        activeIntents: ['welcome','name'],
+    'bornDisabled': {
+        activeIntents: ['welcome','enableBorn', 'born'],
         middleware: ['logInput']
     },
-
-    'nameSet': {
-        activeIntents: ['welcome','name'],
+    
+    'bornEnabled': {
+        activeIntents: ['welcome','born'],
         middleware: ['logInput']
-    },
+    }
 
 }
 

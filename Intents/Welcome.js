@@ -4,8 +4,7 @@ var Ayva = require('ayva')
 var StateManager = Ayva.StateManager
 
 var Welcome = function(Context){
-    StateManager.setState('newUser', Context)
-    Context.assistant.say("Welcome. What is your name?").finish()
+    Context.assistant.say("Hi, I'm Ayva. I was created to help you quickly build cross-platform voice applications. First, let me show you how I remember things. What is your first name?").finish()
 }
 
 module.exports = Welcome;
