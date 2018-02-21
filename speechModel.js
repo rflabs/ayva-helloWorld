@@ -1,7 +1,7 @@
 
 // Welcome Intent
 var Welcome = {
-    name: 'welcome',
+    name: 'Welcome',
     utterances: [],
     events:[
         "Welcome"
@@ -11,14 +11,14 @@ var Welcome = {
 
 // Name Intent
 var Name = {
-    name: 'name',
+    name: 'Name',
     utterances: [
-        "My name is {'name':'Kevin'}",
-        "{'name':'Gavin'}",
-        "I am {'name':'Sophie'}"
+        "My name is {'firstName':'Kevin'}",
+        "{'firstName':'Gavin'}",
+        "I am {'firstName':'Sophie'}"
     ],
     slots: {
-        "name" : {
+        "firstName" : {
             dataType: "@sys.given-name",
             isList: false,
             required: false,
@@ -30,7 +30,7 @@ var Name = {
 
 // EnableBorn Intent
 var EnableBorn = {
-    name: 'enableBorn',
+    name: 'EnableBorn',
     utterances: [
         "enable where were you born intent",
         "allow me to ask Ayva where she was born",
@@ -47,7 +47,7 @@ var EnableBorn = {
 
 // Born Intent
 var Born = {
-    name: 'born',
+    name: 'Born',
     utterances: [
         "where were you born",
         "tell me where you were born",

@@ -1,6 +1,6 @@
 
 // Ayva State manager
-var Ayva = require('ayva')
+var Ayva = require(process.env.LOCAL_AYVA || 'ayva')
 var StateManager = Ayva.StateManager
 
 var EnableBorn = function(Context){
