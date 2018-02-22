@@ -20,6 +20,7 @@ var Name = {
     slots: {
         "firstName" : {
             dataType: "@sys.given-name",
+            dataType_alexa: "AMAZON.US_FIRST_NAME",
             isList: false,
             required: false,
         }
