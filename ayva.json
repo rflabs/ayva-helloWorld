@@ -1,0 +1,11 @@
+{
+    "invocationPhrase": null,
+    "pathToSpeechModel": "./speechModel.js",
+    "dialogflow": {
+        "clientId": null,
+        "developerAccessToken": null
+    },
+    "alexa": {
+        "skillId": null
+    }
+}
