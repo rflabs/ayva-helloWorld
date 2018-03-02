@@ -40,7 +40,8 @@ var EnableBorn = {
         "enable the born intent",
         "enable born intent",
         "enable the intent",
-        "enable intent"
+        "enable intent",
+        "enable"
     ],
     events:[],
     isList: false
@@ -59,6 +60,22 @@ var Born = {
     isList: false
 }
 
+//Simple custom entity
+var HousePets = {name:"HousePets", values:['dog', 'cat', 'turtle', 'snake']};
+
+//Custom entity with synonyms
+var Sports = {
+    name: "Sports",
+    values: [{
+        name: 'Basketball',
+        synonyms: ['hoops', 'baskets']
+    },
+    {
+        name: 'Football',
+        synonyms: ['American football', 'gridiron football']
+    }]
+}
+
 // Export object to access all defined intents
 var speechModel = {
     intents: [
@@ -66,7 +83,11 @@ var speechModel = {
         Name,
         EnableBorn,
         Born
-    ],  
+    ],
+    entities: [
+        HousePets,
+        Sports
+    ]
 }
 
 module.exports = speechModel;
