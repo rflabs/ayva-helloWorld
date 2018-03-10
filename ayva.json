@@ -1,5 +1,5 @@
 {
-    "invocationPhrase": null,
+    "invocationPhrase": "ayva",
     "pathToSpeechModel": "./speechModel.js",
     "dialogflow": {
         "clientId": null,
