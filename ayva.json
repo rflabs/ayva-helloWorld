@@ -1,1 +1,1 @@
-{"invocationPhrase":null,"pathToSpeechModel":"./speechModel.js","dialogflow":{"clientId":null,"developerAccessToken":"d1627ea1d5644f8dbf126322298bc5b4"},"alexa":{"skillId":null}}
+{"invocationPhrase":"ayva","pathToSpeechModel":"./SpeechModel","dialogflow":{"developerAccessToken":null},"alexa":{"skillId":null}}
