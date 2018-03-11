@@ -11,9 +11,7 @@ var EnableBorn = {
         "enable the intent",
         "enable intent",
         "enable"
-    ],
-    events:[],
-    isList: false
+    ]
 }
 
 module.exports = EnableBorn;
