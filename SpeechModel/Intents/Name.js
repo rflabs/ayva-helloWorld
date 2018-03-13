@@ -11,7 +11,10 @@ var Name = {
             dataType: "@sys.given-name",
             dataType_alexa: "AMAZON.US_FIRST_NAME",
             isList: false,
-            required: false
+            required: true,
+            prompts: [
+                "Sorry, I didn't hear your name. Could you say that again?"
+            ]
         }
     }
 }
