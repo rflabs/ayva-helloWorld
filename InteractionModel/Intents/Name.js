@@ -2,9 +2,10 @@
 var Name = {
     name: 'Name',
     utterances: [
-        "My name is {'firstName':'Kevin'}",
-        "{'firstName':'Gavin'}",
-        "I am {'firstName':'Sophie'}"
+        "My name is {'firstName':'George'}",
+        "{'firstName':'Oscar'}",
+        "I am {'firstName':'Michael'}",
+        "I'm {'firstName':'Lucille'}"
     ],
     slots: {
         "firstName" : {
