@@ -7,7 +7,6 @@ var StateDataStore = function(){
         setState: function(state, Context) {
             return new Promise(function(resolve, reject) {
                 Data.Users[Context.deviceProfile.id] = state
-                console.log(Data)
                 resolve(Data)
             })
         },
