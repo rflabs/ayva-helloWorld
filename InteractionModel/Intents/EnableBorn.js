@@ -10,7 +10,8 @@ var EnableBorn = {
         "enable born intent",
         "enable the intent",
         "enable intent",
-        "enable"
+        "enable",
+        "activate"
     ]
 }
 

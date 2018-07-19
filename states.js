@@ -1,12 +1,7 @@
 var States = {
     
     'welcome': {
-        activeIntents: ['Welcome','Name'],
-        middleware: ['logInput']
-    },
-
-    'bornDisabled': {
-        activeIntents: ['Welcome','EnableBorn'],
+        activeIntents: ['Welcome', 'Name', 'EnableBorn'],
         middleware: ['logInput']
     },
     
